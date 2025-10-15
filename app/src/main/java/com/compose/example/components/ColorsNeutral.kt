@@ -19,92 +19,17 @@ import com.compose.example.cs
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
-fun ColorsPreview() = Preview { Colors() }
+fun ColorsNeutralPreview() = Preview { ColorsNeutral() }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun Colors() {
+fun ColorsNeutral() {
     Column(Modifier.fillMaxHeight()) {
-        Row(Modifier.weight(1f)) {
-            ColorDisplay(
-                cs.primary,
-                cs.onPrimary,
-                label = "Primary"
-            )
-            ColorDisplay(
-                cs.secondary,
-                cs.onSecondary,
-                label = "Secondary"
-            )
-            ColorDisplay(
-                cs.tertiary,
-                cs.onTertiary,
-                label = "Tertiary"
-            )
-            ColorDisplay(
-                cs.error,
-                cs.onError,
-                label = "Error"
-            )
-        }
-
-        Row(Modifier.weight(1f)) {
-            ColorDisplay(
-                cs.primaryContainer,
-                cs.onPrimaryContainer,
-                label = "Primary Container"
-            )
-            ColorDisplay(
-                cs.secondaryContainer,
-                cs.onSecondaryContainer,
-                label = "Secondary Container"
-            )
-            ColorDisplay(
-                cs.tertiaryContainer,
-                cs.onTertiaryContainer,
-                label = "Tertiary Container"
-            )
-            ColorDisplay(
-                cs.errorContainer,
-                cs.onErrorContainer,
-                label = "Error Container"
-            )
-        }
-
-        Row(Modifier.weight(1f)) {
-            ColorDisplay(
-                cs.primaryFixed,
-                cs.onPrimaryFixed,
-                cs.primaryFixedDim,
-                cs.onPrimaryFixedVariant,
-                "Primary Fixed"
-            )
-            ColorDisplay(
-                cs.secondaryFixed,
-                cs.onSecondaryFixed,
-                cs.secondaryFixedDim,
-                cs.onSecondaryFixedVariant,
-                "Secondary Fixed"
-            )
-            ColorDisplay(
-                cs.tertiaryFixed,
-                cs.onTertiaryFixed,
-                cs.tertiaryFixedDim,
-                cs.onTertiaryFixedVariant,
-                "Tertiary Fixed"
-            )
-        }
-
         Row(Modifier.weight(1f)) {
             ColorDisplay(
                 cs.surface,
                 cs.inverseSurface,
                 label = "Inverse Surface"
-            )
-            ColorDisplay(
-                cs.primary,
-                cs.inversePrimary,
-                label = "Inverse Primary"
             )
             ColorDisplay(
                 cs.onSurface,

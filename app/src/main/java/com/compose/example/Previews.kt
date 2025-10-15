@@ -18,6 +18,11 @@ import com.compose.example.components.Cards
 import com.compose.example.components.Checkboxes
 import com.compose.example.components.Chips
 import com.compose.example.components.Colors
+import com.compose.example.components.ColorsError
+import com.compose.example.components.ColorsNeutral
+import com.compose.example.components.ColorsPrimary
+import com.compose.example.components.ColorsSecondary
+import com.compose.example.components.ColorsTertiary
 import com.compose.example.components.DatePickers
 import com.compose.example.components.FloatingActionButtons
 import com.compose.example.components.IconButtons
@@ -130,3 +135,23 @@ fun TimePickersPreview() = Preview { TimePickers() }
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 fun ColorsPreview() = Preview { Colors() }
+
+@Composable
+@Preview(device = "spec:width=2160px,height=2341px,dpi=440")
+fun ColorsPrimaryPreview() = Preview { ColorsPrimary() }
+
+@Composable
+@Preview(device = "spec:width=2160px,height=2341px,dpi=440")
+fun ColorsSecondaryPreview() = Preview { ColorsSecondary() }
+
+@Composable
+@Preview(device = "spec:width=2160px,height=2341px,dpi=440")
+fun ColorsTertiaryPreview() = Preview { ColorsTertiary() }
+
+@Composable
+@Preview(device = "spec:width=2160px,height=2341px,dpi=440")
+fun ColorsNeutralPreview() = Preview { ColorsNeutral() }
+
+@Composable
+@Preview(device = "spec:width=2160px,height=2341px,dpi=440")
+fun ColorsErrorPreview() = Preview { ColorsError() }
