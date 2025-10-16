@@ -32,7 +32,7 @@ class PrintColorSchemes {
     }
 }
 
-fun Color.print(): String = "Color(${(this.red * 100).toInt()}, ${(this.green * 100).toInt()}, ${(this.blue * 100).toInt()})"
+fun Color.print(): String = "Color(${(this.red * 255).toInt()}, ${(this.green * 255).toInt()}, ${(this.blue * 255).toInt()})"
 
 fun getColorSchemeOutput(
     variableName: String,
