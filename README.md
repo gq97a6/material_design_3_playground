@@ -13,7 +13,7 @@ Android Project with Jetpack Compose previews that help you define your own cust
 - `preview.PreviewComponents.kt` - All previews of components in a single file
 - `preview.PreviewColors.kt` - All previews of color palettes in a single file
 - `preview.colors` - All previews of components in a single file but displayed with a respective single-color scheme
-- `PrintColorSchemes.kt` - Unit test that generates the output Schemes.kt` file.
+- `PrintColorSchemes.kt` - Unit test that generates the output Schemes.kt file.
 
 ### How to use it?
 
