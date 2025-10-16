@@ -29,22 +29,22 @@ Android Project with Jetpack Compose previews that help you define your own cust
 ### Screenshots
 
 #### Component previews
-<img src="readme_img/component/BottomAppBars.jpg" alt="" width="400"/>
-<img src="readme_img/component/Buttons.jpg" alt="" width="400"/>
-<img src="readme_img/component/Cards.jpg" alt="" width="400"/>
-<img src="readme_img/component/Checkboxes.jpg" alt="" width="400"/>
-<img src="readme_img/component/Chips.jpg" alt="" width="400"/>
-<img src="readme_img/component/DatePickers.jpg" alt="" width="400"/>
-<img src="readme_img/component/FloatingActionButtons.jpg" alt="" width="400"/>
-<img src="readme_img/component/IconButtons.jpg" alt="" width="400"/>
-<img src="readme_img/component/NavigationBars.jpg" alt="" width="400"/>
-<img src="readme_img/component/ProgressIndicators.jpg" alt="" width="400"/>
-<img src="readme_img/component/SegmentedButtons.jpg" alt="" width="400"/>
-<img src="readme_img/component/Sliders.jpg" alt="" width="400"/>
-<img src="readme_img/component/Snackbars.jpg" alt="" width="400"/>
-<img src="readme_img/component/Switches.jpg" alt="" width="400"/>
-<img src="readme_img/component/TextFields.jpg" alt="" width="400"/>
-<img src="readme_img/component/TimePickers.jpg" alt="" width="400"/>
+<img src="readme_img/component/BottomAppBars.jpg" alt="" width="200"/>
+<img src="readme_img/component/Buttons.jpg" alt="" width="200"/>
+<img src="readme_img/component/Cards.jpg" alt="" width="200"/>
+<img src="readme_img/component/Checkboxes.jpg" alt="" width="200"/>
+<img src="readme_img/component/Chips.jpg" alt="" width="200"/>
+<img src="readme_img/component/DatePickers.jpg" alt="" width="200"/>
+<img src="readme_img/component/FloatingActionButtons.jpg" alt="" width="200"/>
+<img src="readme_img/component/IconButtons.jpg" alt="" width="200"/>
+<img src="readme_img/component/NavigationBars.jpg" alt="" width="200"/>
+<img src="readme_img/component/ProgressIndicators.jpg" alt="" width="200"/>
+<img src="readme_img/component/SegmentedButtons.jpg" alt="" width="200"/>
+<img src="readme_img/component/Sliders.jpg" alt="" width="200"/>
+<img src="readme_img/component/Snackbars.jpg" alt="" width="200"/>
+<img src="readme_img/component/Switches.jpg" alt="" width="200"/>
+<img src="readme_img/component/TextFields.jpg" alt="" width="200"/>
+<img src="readme_img/component/TimePickers.jpg" alt="" width="200"/>
 
 #### Color scheme preview
 <img src="readme_img/Scheme.jpg" alt="" width="400"/>
