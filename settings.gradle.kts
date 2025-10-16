@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MaterialDesignColor"
+rootProject.name = "MaterialDesign3Playground"
 include(":app")
  
