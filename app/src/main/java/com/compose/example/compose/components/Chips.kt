@@ -11,12 +11,14 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.ElevatedAssistChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.InputChip
+import androidx.compose.material3.InputChipDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.compose.example.PreviewSample
+import com.compose.example.cs
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
@@ -54,7 +56,8 @@ fun Chips() {
                 selected = true,
                 onClick = {},
                 label = { Text("Label") },
-                leadingIcon = { Icon(Icons.Filled.CatchingPokemon, "", Modifier.size(18.dp)) }
+                leadingIcon = { Icon(Icons.Filled.CatchingPokemon, "", Modifier.size(18.dp)) },
+                colors = InputChipDefaults.inputChipColors(selectedLeadingIconColor = cs.onSecondaryContainer)
             )
             InputChip(
                 enabled = true,
@@ -70,7 +73,8 @@ fun Chips() {
                 onClick = {},
                 label = { Text("Label") },
                 leadingIcon = { Icon(Icons.Filled.CatchingPokemon, "", Modifier.size(18.dp)) },
-                trailingIcon = { Icon(Icons.Filled.Close, "", Modifier.size(18.dp)) }
+                trailingIcon = { Icon(Icons.Filled.Close, "", Modifier.size(18.dp)) },
+                colors = InputChipDefaults.inputChipColors(selectedLeadingIconColor = cs.onSecondaryContainer)
             )
             InputChip(
                 enabled = true,
