@@ -20,6 +20,7 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.compose.example.design.Theme
+import com.google.android.material.color.utilities.Hct
 import com.google.android.material.color.utilities.TonalPalette
 
 val cs: ColorScheme
@@ -33,6 +34,49 @@ fun Color.toTonalList(): List<Color> {
         }
     }
 }
+
+fun TonalPalette.toTonalList(): List<Color> {
+    return List(101) {
+        Color(this.tone(it))
+    }
+}
+
+fun Color.hue(value: Double): Color {
+    return Hct.fromInt(this.toArgb()).apply {
+        hue = value
+    }.toInt().let { Color(it) }
+}
+
+fun Color.chroma(value: Double): Color {
+    return Hct.fromInt(this.toArgb()).apply {
+        chroma = value
+    }.toInt().let { Color(it) }
+}
+
+fun Color.tone(value: Double): Color {
+    return Hct.fromInt(this.toArgb()).apply {
+        tone = value
+    }.toInt().let { Color(it) }
+}
+
+fun Color.hue(fraction: Float): Color {
+    return Hct.fromInt(this.toArgb()).apply {
+        hue = hue * fraction
+    }.toInt().let { Color(it) }
+}
+
+fun Color.chroma(fraction: Float): Color {
+    return Hct.fromInt(this.toArgb()).apply {
+        chroma = chroma * fraction
+    }.toInt().let { Color(it) }
+}
+
+fun Color.tone(fraction: Float): Color {
+    return Hct.fromInt(this.toArgb()).apply {
+        tone = tone * fraction
+    }.toInt().let { Color(it) }
+}
+
 
 @Composable
 fun PreviewSample(content: @Composable () -> Unit) {
@@ -66,7 +110,11 @@ fun PreviewSample(content: @Composable () -> Unit) {
 }
 
 @Composable
-fun PreviewSample(darkColorScheme: ColorScheme, lightColorScheme: ColorScheme, content: @Composable () -> Unit) {
+fun PreviewSample(
+    darkColorScheme: ColorScheme,
+    lightColorScheme: ColorScheme,
+    content: @Composable () -> Unit
+) {
     Row {
         Theme(lightColorScheme) {
             Box(
