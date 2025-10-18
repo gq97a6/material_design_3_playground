@@ -26,118 +26,135 @@ import com.compose.example.design.lightPrimaryColorScheme
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun ColorsPrimaryPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { ColorsPrimary() }
+    { ColorsPrimary() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440", showBackground = false)
 private fun BottomAppBarsPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { BottomAppBars() }
+    { BottomAppBars() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun ButtonsPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { Buttons() }
+    { Buttons() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun CardsPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { Cards() }
+    { Cards() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun CheckboxesPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { Checkboxes() }
+    { Checkboxes() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun ChipsPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { Chips() }
+    { Chips() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun DatePickersPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { DatePickers() }
+    { DatePickers() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun FloatingActionButtonsPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { FloatingActionButtons() }
+    { FloatingActionButtons() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun IconButtonsPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { IconButtons() }
+    { IconButtons() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun NavigationBarsPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { NavigationBars() }
+    { NavigationBars() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun ProgressIndicatorsPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { ProgressIndicators() }
+    { ProgressIndicators() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun SegmentedButtonPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { SegmentedButton() }
+    { SegmentedButton() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun SlidersPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { Sliders() }
+    { Sliders() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun SnackbarsPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { Snackbars() }
+    { Snackbars() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun SwitchesPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { Switches() }
+    { Switches() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun TextFieldsPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { TextFields() }
+    { TextFields() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun TimePickersPreview() = PreviewSample(
+    lightPrimaryColorScheme,
     darkPrimaryColorScheme,
-    lightPrimaryColorScheme
-) { TimePickers() }
+    { TimePickers() }
+)

@@ -26,118 +26,135 @@ import com.compose.example.design.lightErrorColorScheme
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun ColorsErrorPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { ColorsError() }
+    { ColorsError() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440", showBackground = false)
 private fun BottomAppBarsPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { BottomAppBars() }
+    { BottomAppBars() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun ButtonsPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { Buttons() }
+    { Buttons() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun CardsPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { Cards() }
+    { Cards() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun CheckboxesPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { Checkboxes() }
+    { Checkboxes() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun ChipsPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { Chips() }
+    { Chips() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun DatePickersPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { DatePickers() }
+    { DatePickers() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun FloatingActionButtonsPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { FloatingActionButtons() }
+    { FloatingActionButtons() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun IconButtonsPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { IconButtons() }
+    { IconButtons() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun NavigationBarsPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { NavigationBars() }
+    { NavigationBars() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun ProgressIndicatorsPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { ProgressIndicators() }
+    { ProgressIndicators() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun SegmentedButtonPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { SegmentedButton() }
+    { SegmentedButton() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun SlidersPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { Sliders() }
+    { Sliders() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun SnackbarsPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { Snackbars() }
+    { Snackbars() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun SwitchesPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { Switches() }
+    { Switches() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun TextFieldsPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { TextFields() }
+    { TextFields() }
+)
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")
 private fun TimePickersPreview() = PreviewSample(
+    lightErrorColorScheme,
     darkErrorColorScheme,
-    lightErrorColorScheme
-) { TimePickers() }
+    { TimePickers() }
+)

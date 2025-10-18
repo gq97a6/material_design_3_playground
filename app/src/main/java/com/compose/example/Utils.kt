@@ -111,8 +111,8 @@ fun PreviewSample(content: @Composable () -> Unit) {
 
 @Composable
 fun PreviewSample(
-    darkColorScheme: ColorScheme,
     lightColorScheme: ColorScheme,
+    darkColorScheme: ColorScheme,
     content: @Composable () -> Unit
 ) {
     Row {
