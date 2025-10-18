@@ -3,69 +3,6 @@ package com.compose.example.design
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 
-//Dark color scheme with default to Material3 tone values
-val darkDefaultColorScheme = darkColorScheme(
-    // Primary
-    primary = primary[80],
-    onPrimary = primary[20],
-    primaryContainer = primary[30],
-    onPrimaryContainer = primary[90],
-    inversePrimary = primary[40],
-    primaryFixed = primary[90],
-    primaryFixedDim = primary[80],
-    onPrimaryFixed = primary[10],
-    onPrimaryFixedVariant = primary[30],
-
-    // Secondary
-    secondary = secondary[80],
-    onSecondary = secondary[20],
-    secondaryContainer = secondary[30],
-    onSecondaryContainer = secondary[90],
-    secondaryFixed = secondary[90],
-    secondaryFixedDim = secondary[80],
-    onSecondaryFixed = secondary[10],
-    onSecondaryFixedVariant = secondary[30],
-
-    // Tertiary
-    tertiary = tertiary[80],
-    onTertiary = tertiary[20],
-    tertiaryContainer = tertiary[30],
-    onTertiaryContainer = tertiary[90],
-    tertiaryFixed = tertiary[90],
-    tertiaryFixedDim = tertiary[80],
-    onTertiaryFixed = tertiary[10],
-    onTertiaryFixedVariant = tertiary[30],
-
-    // Neutral
-    background = neutral[6],
-    onBackground = neutral[90],
-    surface = neutral[6],
-    onSurface = neutral[90],
-    surfaceTint = primary[80],
-    inverseSurface = neutral[90],
-    inverseOnSurface = neutral[20],
-    scrim = neutral[0],
-    surfaceBright = neutral[24],
-    surfaceContainer = neutral[12],
-    surfaceContainerHigh = neutral[17],
-    surfaceContainerHighest = neutral[22],
-    surfaceContainerLow = neutral[10],
-    surfaceContainerLowest = neutral[4],
-    surfaceDim = neutral[6],
-
-    // NeutralVariant
-    surfaceVariant = neutralVariant[30],
-    onSurfaceVariant = neutralVariant[80],
-    outline = neutralVariant[60],
-    outlineVariant = neutralVariant[30],
-
-    // Error
-    error = error[80],
-    onError = error[20],
-    errorContainer = error[30],
-    onErrorContainer = error[90]
-)
-
 //Light color scheme with default to Material3 tone values
 val lightDefaultColorScheme = lightColorScheme(
     // Primary
@@ -127,4 +64,67 @@ val lightDefaultColorScheme = lightColorScheme(
     onError = error[100],
     errorContainer = error[90],
     onErrorContainer = error[10]
+)
+
+//Dark color scheme with default to Material3 tone values
+val darkDefaultColorScheme = darkColorScheme(
+    // Primary
+    primary = primary[80],
+    onPrimary = primary[20],
+    primaryContainer = primary[30],
+    onPrimaryContainer = primary[90],
+    inversePrimary = primary[40],
+    primaryFixed = primary[90],
+    primaryFixedDim = primary[80],
+    onPrimaryFixed = primary[10],
+    onPrimaryFixedVariant = primary[30],
+
+    // Secondary
+    secondary = secondary[80],
+    onSecondary = secondary[20],
+    secondaryContainer = secondary[30],
+    onSecondaryContainer = secondary[90],
+    secondaryFixed = secondary[90],
+    secondaryFixedDim = secondary[80],
+    onSecondaryFixed = secondary[10],
+    onSecondaryFixedVariant = secondary[30],
+
+    // Tertiary
+    tertiary = tertiary[80],
+    onTertiary = tertiary[20],
+    tertiaryContainer = tertiary[30],
+    onTertiaryContainer = tertiary[90],
+    tertiaryFixed = tertiary[90],
+    tertiaryFixedDim = tertiary[80],
+    onTertiaryFixed = tertiary[10],
+    onTertiaryFixedVariant = tertiary[30],
+
+    // Neutral
+    background = neutral[6],
+    onBackground = neutral[90],
+    surface = neutral[6],
+    onSurface = neutral[90],
+    surfaceTint = primary[80],
+    inverseSurface = neutral[90],
+    inverseOnSurface = neutral[20],
+    scrim = neutral[0],
+    surfaceBright = neutral[24],
+    surfaceContainer = neutral[12],
+    surfaceContainerHigh = neutral[17],
+    surfaceContainerHighest = neutral[22],
+    surfaceContainerLow = neutral[10],
+    surfaceContainerLowest = neutral[4],
+    surfaceDim = neutral[6],
+
+    // NeutralVariant
+    surfaceVariant = neutralVariant[30],
+    onSurfaceVariant = neutralVariant[80],
+    outline = neutralVariant[60],
+    outlineVariant = neutralVariant[30],
+
+    // Error
+    error = error[80],
+    onError = error[20],
+    errorContainer = error[30],
+    onErrorContainer = error[90]
 )
