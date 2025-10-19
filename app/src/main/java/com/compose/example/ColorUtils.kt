@@ -128,125 +128,125 @@ fun Color.adjust(background: Color): Color {
 object Tones {
     object Dark {
         // Primary
-        const val primary = 40
-        const val onPrimary = 100
-        const val primaryContainer = 90
-        const val onPrimaryContainer = 10
-        const val inversePrimary = 80
-        const val primaryFixed = 90
-        const val primaryFixedDim = 80
-        const val onPrimaryFixed = 10
-        const val onPrimaryFixedVariant = 30
+        const val primary = 40.0
+        const val onPrimary = 100.0
+        const val primaryContainer = 90.0
+        const val onPrimaryContainer = 10.0
+        const val inversePrimary = 80.0
+        const val primaryFixed = 90.0
+        const val primaryFixedDim = 80.0
+        const val onPrimaryFixed = 10.0
+        const val onPrimaryFixedVariant = 30.0
 
         // Secondary
-        const val secondary = 40
-        const val onSecondary = 100
-        const val secondaryContainer = 90
-        const val onSecondaryContainer = 10
-        const val secondaryFixed = 90
-        const val secondaryFixedDim = 80
-        const val onSecondaryFixed = 10
-        const val onSecondaryFixedVariant = 30
+        const val secondary = 40.0
+        const val onSecondary = 100.0
+        const val secondaryContainer = 90.0
+        const val onSecondaryContainer = 10.0
+        const val secondaryFixed = 90.0
+        const val secondaryFixedDim = 80.0
+        const val onSecondaryFixed = 10.0
+        const val onSecondaryFixedVariant = 30.0
 
         // Tertiary
-        const val tertiary = 40
-        const val onTertiary = 100
-        const val tertiaryContainer = 90
-        const val onTertiaryContainer = 10
-        const val tertiaryFixed = 90
-        const val tertiaryFixedDim = 80
-        const val onTertiaryFixed = 10
-        const val onTertiaryFixedVariant = 30
+        const val tertiary = 40.0
+        const val onTertiary = 100.0
+        const val tertiaryContainer = 90.0
+        const val onTertiaryContainer = 10.0
+        const val tertiaryFixed = 90.0
+        const val tertiaryFixedDim = 80.0
+        const val onTertiaryFixed = 10.0
+        const val onTertiaryFixedVariant = 30.0
 
         // Neutral
-        const val background = 98
-        const val onBackground = 10
-        const val surface = 98
-        const val onSurface = 10
-        const val surfaceTint = 40
-        const val inverseSurface = 20
-        const val inverseOnSurface = 95
-        const val scrim = 0
-        const val surfaceBright = 98
-        const val surfaceContainer = 94
-        const val surfaceContainerHigh = 92
-        const val surfaceContainerHighest = 90
-        const val surfaceContainerLow = 96
-        const val surfaceContainerLowest = 100
-        const val surfaceDim = 87
+        const val background = 98.0
+        const val onBackground = 10.0
+        const val surface = 98.0
+        const val onSurface = 10.0
+        const val surfaceTint = 40.0
+        const val inverseSurface = 20.0
+        const val inverseOnSurface = 95.0
+        const val scrim = 0.0
+        const val surfaceBright = 98.0
+        const val surfaceContainer = 94.0
+        const val surfaceContainerHigh = 92.0
+        const val surfaceContainerHighest = 90.0
+        const val surfaceContainerLow = 96.0
+        const val surfaceContainerLowest = 100.0
+        const val surfaceDim = 87.0
 
         // NeutralVariant
-        const val surfaceVariant = 90
-        const val onSurfaceVariant = 30
-        const val outline = 50
-        const val outlineVariant = 80
+        const val surfaceVariant = 90.0
+        const val onSurfaceVariant = 30.0
+        const val outline = 50.0
+        const val outlineVariant = 80.0
 
         // Error
-        const val error = 40
-        const val onError = 100
-        const val errorContainer = 90
-        const val onErrorContainer = 10
+        const val error = 40.0
+        const val onError = 100.0
+        const val errorContainer = 90.0
+        const val onErrorContainer = 10.0
     }
 
     object Light {
         // Primary
-        const val primary = 80
-        const val onPrimary = 20
-        const val primaryContainer = 30
-        const val onPrimaryContainer = 90
-        const val inversePrimary = 40
-        const val primaryFixed = 90
-        const val primaryFixedDim = 80
-        const val onPrimaryFixed = 10
-        const val onPrimaryFixedVariant = 30
+        const val primary = 80.0
+        const val onPrimary = 20.0
+        const val primaryContainer = 30.0
+        const val onPrimaryContainer = 90.0
+        const val inversePrimary = 40.0
+        const val primaryFixed = 90.0
+        const val primaryFixedDim = 80.0
+        const val onPrimaryFixed = 10.0
+        const val onPrimaryFixedVariant = 30.0
 
         // Secondary
-        const val secondary = 80
-        const val onSecondary = 20
-        const val secondaryContainer = 30
-        const val onSecondaryContainer = 90
-        const val secondaryFixed = 90
-        const val secondaryFixedDim = 80
-        const val onSecondaryFixed = 10
-        const val onSecondaryFixedVariant = 30
+        const val secondary = 80.0
+        const val onSecondary = 20.0
+        const val secondaryContainer = 30.0
+        const val onSecondaryContainer = 90.0
+        const val secondaryFixed = 90.0
+        const val secondaryFixedDim = 80.0
+        const val onSecondaryFixed = 10.0
+        const val onSecondaryFixedVariant = 30.0
 
         // Tertiary
-        const val tertiary = 80
-        const val onTertiary = 20
-        const val tertiaryContainer = 30
-        const val onTertiaryContainer = 90
-        const val tertiaryFixed = 90
-        const val tertiaryFixedDim = 80
-        const val onTertiaryFixed = 10
-        const val onTertiaryFixedVariant = 30
+        const val tertiary = 80.0
+        const val onTertiary = 20.0
+        const val tertiaryContainer = 30.0
+        const val onTertiaryContainer = 90.0
+        const val tertiaryFixed = 90.0
+        const val tertiaryFixedDim = 80.0
+        const val onTertiaryFixed = 10.0
+        const val onTertiaryFixedVariant = 30.0
 
         // Neutral
-        const val background = 6
-        const val onBackground = 90
-        const val surface = 6
-        const val onSurface = 90
-        const val surfaceTint = 80
-        const val inverseSurface = 90
-        const val inverseOnSurface = 20
-        const val scrim = 0
-        const val surfaceBright = 24
-        const val surfaceContainer = 12
-        const val surfaceContainerHigh = 17
-        const val surfaceContainerHighest = 22
-        const val surfaceContainerLow = 10
-        const val surfaceContainerLowest = 4
-        const val surfaceDim = 6
+        const val background = 6.0
+        const val onBackground = 90.0
+        const val surface = 6.0
+        const val onSurface = 90.0
+        const val surfaceTint = 80.0
+        const val inverseSurface = 90.0
+        const val inverseOnSurface = 20.0
+        const val scrim = 0.0
+        const val surfaceBright = 24.0
+        const val surfaceContainer = 12.0
+        const val surfaceContainerHigh = 17.0
+        const val surfaceContainerHighest = 22.0
+        const val surfaceContainerLow = 10.0
+        const val surfaceContainerLowest = 4.0
+        const val surfaceDim = 6.0
 
         // NeutralVariant
-        const val surfaceVariant = 30
-        const val onSurfaceVariant = 80
-        const val outline = 60
-        const val outlineVariant = 30
+        const val surfaceVariant = 30.0
+        const val onSurfaceVariant = 80.0
+        const val outline = 60.0
+        const val outlineVariant = 30.0
 
         // Error
-        const val error = 80
-        const val onError = 20
-        const val errorContainer = 30
-        const val onErrorContainer = 90
+        const val error = 80.0
+        const val onError = 20.0
+        const val errorContainer = 30.0
+        const val onErrorContainer = 90.0
     }
 }
