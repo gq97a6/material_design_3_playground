@@ -18,9 +18,10 @@ Android Project with Jetpack Compose previews that help you define your own cust
 ### How to use it?
 
 - Modify colors listed in `design.Color.kt`.
-- Modify tone values in `design.Scheme.kt`.
+- Adjust scheme colors in `design.Scheme.kt`.
 - Focus on a single color role by using one of the previews in `preview.colors`.
 - Check out final result using `preview.PreviewComponents.kt`.
+- Compare with standard Material 3 color schemes using `preview.PreviewComponentsMaterial.kt`.
 - Display whole color pallet using `preview.PreviewColors.kt`.
 - Generate `Schemes.kt` file using `PrintColorSchemes.kt`.
 

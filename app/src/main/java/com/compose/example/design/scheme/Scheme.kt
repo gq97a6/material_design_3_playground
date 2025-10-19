@@ -3,6 +3,7 @@ package com.compose.example.design.scheme
 import androidx.compose.material3.ColorScheme
 import androidx.compose.ui.graphics.Color
 import com.compose.example.adjust
+import com.compose.example.chroma
 import com.compose.example.design.error
 import com.compose.example.design.neutral
 import com.compose.example.design.neutralVariant
@@ -14,42 +15,42 @@ import com.compose.example.tone
 //Custom light color scheme
 val lightColorScheme = ColorScheme(
     // Primary
-    primary = primary.adjust(Color.White).tone(40.0),
-    onPrimary = primary.tone(100.0),
-    primaryContainer = primary.tone(90.0),
-    onPrimaryContainer = primary.tone(10.0),
-    inversePrimary = primary.tone(80.0),
-    primaryFixed = primary.tone(90.0),
-    primaryFixedDim = primary.tone(80.0),
-    onPrimaryFixed = primary.tone(10.0),
-    onPrimaryFixedVariant = primary.tone(30.0),
+    primary = primary.adjust(Color.White).chroma(.9f),
+    onPrimary = primary.tone(98.0).chroma(0f),
+    primaryContainer = primary.tone(80.0).chroma(0f),
+    onPrimaryContainer = primary.tone(10.0).chroma(0f),
+    inversePrimary = primary.adjust(Color.White),
+    primaryFixed = Color.Unspecified,
+    primaryFixedDim = Color.Unspecified,
+    onPrimaryFixed = Color.Unspecified,
+    onPrimaryFixedVariant = Color.Unspecified,
 
     // Secondary
-    secondary = secondary.tone(40.0),
-    onSecondary = secondary.tone(100.0),
-    secondaryContainer = secondary.tone(90.0),
-    onSecondaryContainer = secondary.tone(10.0),
-    secondaryFixed = secondary.tone(90.0),
-    secondaryFixedDim = secondary.tone(80.0),
-    onSecondaryFixed = secondary.tone(10.0),
-    onSecondaryFixedVariant = secondary.tone(30.0),
+    secondary = secondary.tone(20.0).chroma(0f),
+    onSecondary = secondary.tone(100.0).chroma(0f),
+    secondaryContainer = secondary.tone(90.0).chroma(0f),
+    onSecondaryContainer = secondary.tone(10.0).chroma(0f),
+    secondaryFixed = Color.Unspecified,
+    secondaryFixedDim = Color.Unspecified,
+    onSecondaryFixed = Color.Unspecified,
+    onSecondaryFixedVariant = Color.Unspecified,
 
     // Tertiary
-    tertiary = tertiary.tone(40.0),
+    tertiary = tertiary.tone(50.0),
     onTertiary = tertiary.tone(100.0),
     tertiaryContainer = tertiary.tone(90.0),
     onTertiaryContainer = tertiary.tone(10.0),
-    tertiaryFixed = tertiary.tone(90.0),
-    tertiaryFixedDim = tertiary.tone(80.0),
-    onTertiaryFixed = tertiary.tone(10.0),
-    onTertiaryFixedVariant = tertiary.tone(30.0),
+    tertiaryFixed = Color.Unspecified,
+    tertiaryFixedDim = Color.Unspecified,
+    onTertiaryFixed = Color.Unspecified,
+    onTertiaryFixedVariant = Color.Unspecified,
 
     // Neutral
     background = neutral.tone(98.0),
     onBackground = neutral.tone(10.0),
     surface = neutral.tone(98.0),
     onSurface = neutral.tone(10.0),
-    surfaceTint = primary.tone(40.0),
+    surfaceTint = neutral.tone(40.0),
     inverseSurface = neutral.tone(20.0),
     inverseOnSurface = neutral.tone(95.0),
     scrim = neutral.tone(0.0),
@@ -68,7 +69,7 @@ val lightColorScheme = ColorScheme(
     outlineVariant = neutralVariant.tone(80.0),
 
     // Error
-    error = error.tone(40.0),
+    error = error.tone(50.0),
     onError = error.tone(100.0),
     errorContainer = error.tone(90.0),
     onErrorContainer = error.tone(10.0)
@@ -77,42 +78,42 @@ val lightColorScheme = ColorScheme(
 //Custom dark color scheme
 val darkColorScheme = ColorScheme(
     // Primary
-    primary = primary.adjust(Color.Black).tone(80.0),
-    onPrimary = primary.tone(20.0),
-    primaryContainer = primary.tone(30.0),
-    onPrimaryContainer = primary.tone(90.0),
-    inversePrimary = primary.tone(40.0),
-    primaryFixed = primary.tone(90.0),
-    primaryFixedDim = primary.tone(80.0),
-    onPrimaryFixed = primary.tone(10.0),
-    onPrimaryFixedVariant = primary.tone(30.0),
+    primary = primary.adjust(Color.Black).chroma(.9f),
+    onPrimary = primary.tone(10.0).chroma(0f),
+    primaryContainer = primary.tone(10.0).chroma(0f),
+    onPrimaryContainer = primary.tone(85.0).chroma(0f),
+    inversePrimary = primary.adjust(Color.Black).tone(.9f),
+    primaryFixed = Color.Unspecified,
+    primaryFixedDim = Color.Unspecified,
+    onPrimaryFixed = Color.Unspecified,
+    onPrimaryFixedVariant = Color.Unspecified,
 
     // Secondary
-    secondary = secondary.tone(80.0),
-    onSecondary = secondary.tone(20.0),
-    secondaryContainer = secondary.tone(30.0),
-    onSecondaryContainer = secondary.tone(90.0),
-    secondaryFixed = secondary.tone(90.0),
-    secondaryFixedDim = secondary.tone(80.0),
-    onSecondaryFixed = secondary.tone(10.0),
-    onSecondaryFixedVariant = secondary.tone(30.0),
+    secondary = secondary.tone(80.0).chroma(0f),
+    onSecondary = secondary.tone(20.0).chroma(0f),
+    secondaryContainer = secondary.tone(30.0).chroma(0f),
+    onSecondaryContainer = secondary.tone(90.0).chroma(0f),
+    secondaryFixed = Color.Unspecified,
+    secondaryFixedDim = Color.Unspecified,
+    onSecondaryFixed = Color.Unspecified,
+    onSecondaryFixedVariant = Color.Unspecified,
 
     // Tertiary
-    tertiary = tertiary.tone(80.0),
-    onTertiary = tertiary.tone(20.0),
+    tertiary = tertiary.tone(70.0),
+    onTertiary = tertiary.tone(10.0),
     tertiaryContainer = tertiary.tone(30.0),
     onTertiaryContainer = tertiary.tone(90.0),
-    tertiaryFixed = tertiary.tone(90.0),
-    tertiaryFixedDim = tertiary.tone(80.0),
-    onTertiaryFixed = tertiary.tone(10.0),
-    onTertiaryFixedVariant = tertiary.tone(30.0),
+    tertiaryFixed = Color.Unspecified,
+    tertiaryFixedDim = Color.Unspecified,
+    onTertiaryFixed = Color.Unspecified,
+    onTertiaryFixedVariant = Color.Unspecified,
 
     // Neutral
     background = neutral.tone(6.0),
     onBackground = neutral.tone(90.0),
     surface = neutral.tone(6.0),
     onSurface = neutral.tone(90.0),
-    surfaceTint = primary.tone(80.0),
+    surfaceTint = neutral.tone(80.0),
     inverseSurface = neutral.tone(90.0),
     inverseOnSurface = neutral.tone(20.0),
     scrim = neutral.tone(0.0),
@@ -131,8 +132,8 @@ val darkColorScheme = ColorScheme(
     outlineVariant = neutral.tone(30.0),
 
     // Error
-    error = error.tone(80.0),
-    onError = error.tone(20.0),
-    errorContainer = error.tone(30.0),
+    error = error.tone(60.0),
+    onError = error.tone(10.0),
+    errorContainer = error.tone(50.0),
     onErrorContainer = error.tone(90.0)
 )
