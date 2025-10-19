@@ -20,8 +20,8 @@ import com.compose.example.compose.components.Snackbars
 import com.compose.example.compose.components.Switches
 import com.compose.example.compose.components.TextFields
 import com.compose.example.compose.components.TimePickers
-import com.compose.example.design.darkNeutralColorScheme
-import com.compose.example.design.lightNeutralColorScheme
+import com.compose.example.design.scheme.darkNeutralColorScheme
+import com.compose.example.design.scheme.lightNeutralColorScheme
 
 @Composable
 @Preview(device = "spec:width=2160px,height=2341px,dpi=440")

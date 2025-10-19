@@ -4,6 +4,8 @@ import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable
+import com.compose.example.design.scheme.darkColorScheme
+import com.compose.example.design.scheme.lightColorScheme
 
 @Composable
 fun Theme(

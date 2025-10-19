@@ -2,33 +2,23 @@ package com.compose.example.design
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
-import com.compose.example.toTonalList
 import com.google.android.material.color.utilities.CorePalette
 
-//Material source color
-val sourceColor = Color(255, 143, 0, 255)
-val colorPalette = CorePalette.contentOf(sourceColor.toArgb())
+//Custom colors
+val primary = Color(255, 143, 0, 255)
+val secondary = Color(216, 160, 112, 255)
+val tertiary = Color(109, 127, 25, 255)
+val neutral = Color(255, 255, 255, 255)
+val neutralVariant = Color(255, 255, 255, 255)
+val error = Color(255, 84, 73, 255)
 
-val primaryColor = Color(113, 201, 0, 255)
-val secondaryColor = Color(129, 152, 105, 255)
-val tertiaryColor = Color(46, 160, 157, 255)
-val neutralColor = Color(255, 255, 255, 255)
-val neutralVariantColor = Color(255, 255, 255, 255)
-val errorColor = Color(255, 84, 73, 255)
+val materialSourceColor = Color(255, 152, 0, 255)
+val materialCorePalette = CorePalette.contentOf(materialSourceColor.toArgb())!!
 
-//Tonal palettes
-val primary = primaryColor.toTonalList()
-val secondary = secondaryColor.toTonalList()
-val tertiary = tertiaryColor.toTonalList()
-val neutral = neutralColor.toTonalList()
-val neutralVariant = neutralVariantColor.toTonalList()
-val error = errorColor.toTonalList()
-val white = Color.White.toTonalList()
-
-//Material tonal palettes
-val primaryMaterial = colorPalette.a1.toTonalList()
-val secondaryMaterial = colorPalette.a2.toTonalList()
-val tertiaryMaterial = colorPalette.a3.toTonalList()
-val neutralMaterial = neutralColor.toTonalList()
-val neutralVariantMaterial = neutralVariantColor.toTonalList()
-val errorMaterial = colorPalette.error.toTonalList()
+//Material colors
+val primaryMaterial = Color(materialCorePalette.a1.keyColor.toInt())
+val secondaryMaterial = Color(materialCorePalette.a2.keyColor.toInt())
+val tertiaryMaterial = Color(materialCorePalette.a3.keyColor.toInt())
+val neutralMaterial = Color(materialCorePalette.n1.keyColor.toInt())
+val neutralVariantMaterial = Color(materialCorePalette.n2.keyColor.toInt())
+val errorMaterial = Color(materialCorePalette.error.keyColor.toInt())

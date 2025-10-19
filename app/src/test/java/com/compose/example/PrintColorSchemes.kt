@@ -2,11 +2,10 @@ package com.compose.example
 
 import androidx.compose.material3.ColorScheme
 import androidx.compose.ui.graphics.Color
-import com.compose.example.design.darkColorScheme
-import com.compose.example.design.lightColorScheme
+import com.compose.example.design.scheme.darkColorScheme
+import com.compose.example.design.scheme.lightColorScheme
 import org.junit.Test
 
-import org.junit.Assert.*
 import java.io.File
 
 //Outputs file to app/Schemes.kt

@@ -1,4 +1,4 @@
-package com.compose.example.design
+package com.compose.example.design.scheme
 
 import com.compose.example.modified
 
