@@ -17,7 +17,7 @@ class PrintColorSchemes {
 
         getColorSchemeOutput(
             variableName = "darkColorScheme",
-            functionName = "darkColorScheme",
+            functionName = "ColorScheme",
             cs = darkColorScheme
         ).let { file.appendText(it) }
 
@@ -25,7 +25,7 @@ class PrintColorSchemes {
 
         getColorSchemeOutput(
             variableName = "lightColorScheme",
-            functionName = "lightColorScheme",
+            functionName = "ColorScheme",
             cs = lightColorScheme
         ).let { file.appendText(it) }
     }
